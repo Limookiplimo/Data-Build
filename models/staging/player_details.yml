@@ -7,6 +7,8 @@ models:
     columns:
       - name: Name
         description: "Name of the player"
+        tests:
+          - not_null
 
       - name: Club
         description: "Player's football team"
