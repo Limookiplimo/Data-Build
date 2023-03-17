@@ -8,5 +8,5 @@ sources:
     tables:
       - name: store_sales
         description: 'Sales details'
-        
+
     

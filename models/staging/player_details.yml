@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: player_details
+    description: "Top football players playing for clubs across Europe"
+
+    columns:
+      - name: Name
+        description: "Name of the player"
+
+      - name: Club
+        description: "Player's football team"
+
+      - name: Goals
+        description: "Goals scored by player"
+        tests:
+          - more_goals
+
+      - name: Assist
+        description: "Contributions to goals scored"
